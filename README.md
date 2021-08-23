@@ -12,8 +12,9 @@ Today, we begin the first of a 4-Phase build of the storefront application, writ
 
 
 
-[pull request]()
-[netlify]()
+* [pull request]()
+
+* [netlify]()
 
 
 ![]()
