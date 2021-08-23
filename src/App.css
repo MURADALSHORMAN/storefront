@@ -1,0 +1,98 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.cardMain {
+  background-color: rgba(118, 121, 118, 0.514);
+  text-align: center;
+}
+
+.cardContaner {
+  
+}
+
+.myCard {
+  margin: 5%;
+  width: 300px;
+  display: inline-grid;
+}
+
+.name {
+  font-size: 50px;
+  letter-spacing: 3px;
+  font-weight: 400;
+}
+
+.discription {
+  font-size: 30px;
+  font-weight: 300;
+  color: rgb(5, 5, 5);
+}
+
+.footer {
+  height: 70px;
+  background-color: rgba(15, 15, 15, 0.678);
+  font-size: 30px;
+  text-align: center;
+  line-height: 35px;
+  vertical-align: middle;
+  color: rgb(8, 8, 8);
+  position: absolute;
+  width: 100%;
+  letter-spacing: 3px !important;
+ 
+  
+}
+
+.catego {
+  margin-left: 50px;
+}
+.catego h3 {
+  font-weight: 400;
+}
+
+.header {
+  width: 98%;
+  margin-left: 1%;
+}
+
+.appp {
+  background-color: rgba(65, 66, 65, 0.288) !important;
+  color: black !important;
+  letter-spacing: 3px !important;
+}
