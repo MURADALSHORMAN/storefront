@@ -11,7 +11,7 @@ import Typography from '@material-ui/core/Typography';
 
 const useStyles = makeStyles({
   root: {
-    // maxWidth: 345,
+    
   },
   media: {
     height: 140,
@@ -23,7 +23,7 @@ function Products(props) {
 
   return (
     <div className="cardMain">
-      {/* {console.log(props)} */}
+      
       <h2 className="name">{props.categories.active.normalizedName}</h2>
       <h4 className="discription" >{props.categories.active.description}</h4>
 
