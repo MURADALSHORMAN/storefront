@@ -12,7 +12,7 @@ Today, we begin the first of a 4-Phase build of the storefront application, writ
 
 
 
-* [pull request]()
+* [pull request](https://github.com/MURADALSHORMAN/storefront/pull/1)
 
 * [netlify]()
 
