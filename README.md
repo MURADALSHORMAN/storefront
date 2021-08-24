@@ -18,3 +18,21 @@ Today, we begin the first of a 4-Phase build of the storefront application, writ
 
 # UML
 ![](https://github.com/MURADALSHORMAN/storefront/blob/main/lab36.jpg)
+
+
+
+
+# lab 37
+In phase 2, we will be adding the “Add to Cart” feature to our application, which will allow our users to not only browse items in the store, but also select them and have them persist in their “shopping cart” for later purchase.
+
+
+
+* [pull request](https://github.com/MURADALSHORMAN/storefront/pull/2)
+
+* [netlify](https://app.netlify.com/sites/admiring-pare-fe5d04/deploys/6124697b6c209300079e8e9a?utm_source=github&utm_campaign=bot_dl)
+
+
+
+
+
+
