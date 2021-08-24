@@ -43,18 +43,41 @@ const initialState = {
     ],
     fillterd: [],
   };
-  
   const productsReducer = (state = initialState, action) => {
     const { type, payload } = action;
   
-    
+   
     switch (type) {
       case 'SELECT_ACTIVE2':
         let products = state.products.filter((item) =>
           item.category === payload ? item : null
         );
-       
+      
         return { products: state.products, fillterd: products };
+  
+      case 'ADD_ITEM2':
+        let newProducts = state.products.map((item) => {
+          if (item.name === payload.name) {
+            item.count = item.count - 1;
+          }
+          return item;
+        });
+  
+       
+  
+        return { products: newProducts, fillterd: state.fillterd };
+  
+      case 'REMOVE_ITEM2':
+        let newProducts2 = state.products.map((item) => {
+          if (item.name === payload.name) {
+            item.count = item.count + 1;
+          }
+          return item;
+        });
+  
+     
+  
+        return { products: newProducts2, fillterd: state.fillterd };
   
       default:
         return state;
@@ -69,4 +92,17 @@ const initialState = {
     };
   };
   
+  export const reduceCount = (item) => {
+    return {
+      type: 'ADD_ITEM2',
+      payload: item,
+    };
+  };
+  
+  export const increseCount = (item) => {
+    return {
+      type: 'REMOVE_ITEM2',
+      payload: item,
+    };
+  };
   export default productsReducer;
