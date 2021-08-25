@@ -34,5 +34,16 @@ In phase 2, we will be adding the “Add to Cart” feature to our application, 
 
 
 
+# lab 38
+In phase 2, we will be adding the “Add to Cart” feature to our application, which will allow our users to not only browse items in the store, but also select them and have them persist in their “shopping cart” for later purchase.
+
+
+
+* [pull request](https://github.com/MURADALSHORMAN/storefront/pull/3)
+
+* [netlify](https://6125c2de344e1c572432c14d--admiring-pare-fe5d04.netlify.app/)
+
+
+
 
 
